@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+
+}
+
+header {
+  color: white;
+  background-image: url(https://www.tepapa.govt.nz/sites/default/files/slideshows/new-vision-colin-mccahon-otago-peninsula-tepapa-slideshow.jpg);
+  background-repeat: no repeat;
+  background-position: -30% 15%;
+  background-attachment: fixed;
+  margin: 0px;
+  padding:200px 0px 0px 10px;
+}
+
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  background: #999;
+  padding: 5px 20px 0 20px;
+  font-size: 35px;
+  display: inline;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+   font-size: 20px
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+  display:inline;
+  padding: 0px 0px 0px 10px;
+}
+
+nav ul li {
+  font-family: arial;
+  display: inline-block;
+  background: black;
+  color: white;
+  padding: 5px 20px;
+  margin: 0px 5px 0px 5px;
+
+}
+
+nav ul li a {
+  color: white
+
+}
