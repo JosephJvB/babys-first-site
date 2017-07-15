@@ -1,24 +1,30 @@
 body {
   margin: 0;
+  background-color: #d9d9d9;
 
 }
 
+.jumbotron {
+  padding: 10px 50px 30px 30px;
+    margin: 0px 400px 50px 300px;
+}
 header {
   color: white;
   background-image: url(https://www.tepapa.govt.nz/sites/default/files/slideshows/new-vision-colin-mccahon-otago-peninsula-tepapa-slideshow.jpg);
   background-repeat: no-repeat;
-  background-position: -30% 15%;
-  background-attachment: fixed;
-  margin: 0px;
-  padding:200px 0px 0px 10px;
+  background-position: 10% 15%;
+  margin: -50px 0px 0px 0px;
+  padding: 100px 0px 0px 10px;
+  max-width: 1600px;
 }
 
 
 h1 {
-  font-family: 'Roboto', sans-serif;
-  background: #999;
-  padding: 5px 20px 0 20px;
-  font-size: 35px;
+  font-family: 'Lemonada', cursive;
+  text-shadow: 2px 2px 2px #000000;
+color: White  ;
+  padding: 5px 20px 100px 10px;
+  font-size: 2.7em;
   display: inline;
 }
 
@@ -38,11 +44,12 @@ nav ul {
 
 nav ul li {
   font-family: arial;
+  border-radius: 4px;
   display: inline-block;
   background: black;
   color: white;
   padding: 5px 20px;
-  margin: 0px 5px 0px 5px;
+  margin: 0px 5px 0px 0px;
 
 }
 
