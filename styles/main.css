@@ -6,7 +6,7 @@ body {
 
 .jumbotron {
   padding: 10px 50px 30px 30px;
-    margin: 0px 15% 50px 15%x;
+    margin: 0px 15% 50px 15%;
 }
 header {
   color: white;
@@ -35,7 +35,7 @@ h2 {
 
 h3 {
   font-family: 'Oswald', sans-serif;
-  font-style: italic; 
+  font-style: italic;
 }
 
 nav ul {
