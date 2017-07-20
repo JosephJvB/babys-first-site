@@ -36,6 +36,7 @@ h2 {
 h3 {
   font-family: 'Oswald', sans-serif;
   font-style: italic;
+  margin: 0px 0px 0px 15%;
 }
 
 nav ul {
@@ -57,4 +58,14 @@ nav ul li {
 nav ul li a {
   color: white
 
+}
+
+.image-center {
+   width: 40%;
+   height: 40%;
+   margin: 2% 10% 50px 30%;
+   border: 5px;
+   border-style: solid;
+   border-color: black;
+   border-radius: 100px;
 }
