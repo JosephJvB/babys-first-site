@@ -78,7 +78,7 @@ nav ul li a {
 
 @media only screen and (max-width: 420px) {
   .image-center{
-    width: 500%;
-    height: 500%;
+    width: 500px;
+    height: 500px;
   }
 }
