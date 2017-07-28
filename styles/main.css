@@ -1,0 +1,13 @@
+.navbar {
+  display: inline-block;
+  background-color: red;
+  border-color: solid black;
+}
+
+header {
+  border-color: solid black;
+}
+
+body {
+  border-color: solid black;
+}
