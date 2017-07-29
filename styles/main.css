@@ -1,13 +1,62 @@
-.navbar {
-  display: inline-block;
-  background-color: red;
-  border-color: solid black;
-}
-
-header {
-  border-color: solid black;
+* {
+    box-sizing: border-box;
 }
 
 body {
-  border-color: solid black;
+  background-image: url(http://blog.hostbaby.com/wp-content/uploads/2014/03/Trees_1920x1234.png);
 }
+
+.container {
+  background-color: white;
+}
+
+/* navigator */
+
+.navbar {
+  border: solid;
+  border-color: black;
+}
+
+.navbar h1 {
+  padding: 20px 30px;
+}
+
+.navbar h2 {
+  padding: 20px 40px;
+}
+
+/* header */
+
+header {
+  background-image: url(../../workspace/JosephJvb.github.io/images/is-coffee-paleo1.jpg)
+}
+
+header .row {
+  text-align: center;
+  border: solid;
+  border-color: black;
+}
+
+header h1 {
+  margin: 75px auto;
+}
+
+header .joeface {
+  border-radius: 50%;
+  margin: 2px 5px;
+}
+
+/* main */
+
+main {
+   text-align: center;
+   border: solid;
+   border-color: black;
+}
+
+.buttonstack .button-primary {
+  padding: 40px 300px;
+  margin: 20px auto;
+}
+
+/* footer */
