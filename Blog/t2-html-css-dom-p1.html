@@ -1,53 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>JvB Online</title>
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
+    <title>Joseph's Website</title>
+    <meta charset="UTF-8">
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
 
   </head>
 
   <body>
-    <div class="container-fluid">
-    <div class="jumbotron">
-    <header>
-      <nav>
-    <h1>Technical Blog no. 1</h1>
+    <div class="container">
+      <div class="navbar">
+        <div class="row">
+          <div class="three columns">
+            <img src="https://www.devacademy.co.nz/wp-content/uploads/2016/02/EDA-square-hires-180x180.png" class"eda">
+          </div>
+          <div class="four columns">
+            <h1>Joseph.vB</h1>
+          </div>
+          <div class="five columns">
+            <h2><a href="../index.html">Home</a> <a href="#">|</a> <a href="#">Contact</a></h2>
+          </div>
+        </div> <!--row-->
+      </div> <!--navbar-->
 
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-      <li><a href="../Blog/c1-reflection-blog.html">Reflection</a></li>
-            <li><a href="../Blog/c1-time-and-habits-blog.html">Time & Habits</a></li>
-            <li>Tech Blog 1</li>
-            <li><a href="../Blog/t2-html-css-dom-p2">Tech Blog 2</a></li>
-            <li><a href="../Blog/c2-emotional-intelligence.html">EQ Blog</a></li>
-          </ul>
-      </nav>
-    </header>
-<div class ="text-wrapper">
-    <h3>Udacity Lesson 1</h3>
+      <div class="scroller">
+        <header>
+          <div class="row">
+            <div class="three columns">
+             <img src="../images/joeface.jpg" class="joeface">
+            </div>
+            <div class="nine columns">
+              <h1>Blog-X</h1>
+            </div>
+          </div> <!--row-->
+        </header>
 
-    <ul>
-      <li><strong>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</strong></li>
-      <p>The example in the Udacity video was of building a house. So if web development is house, HTML is the structural engineering and CSS is the interior/exterior decoration. I didn't get a great understanding of the DOM from the Udacity videos but it seems like the DOM is the thing that turns the plans laid by HTML and CSS into their end result, so perhaps the DOM is the site manager who takes the HTML/CSS documents, translates them, and produces the website. Sorry if that's not accurate, I'm still hazy on its strict definition. So HTML is the walls and supports of the house, CSS will tell you how big your TV is, how much insulation is in your walls and what colour those walls are, the DOM is the person who organises the installation of the whole project.</p>
-       <li><strong>What is meant by boxifying design?</strong></li>
-       <p>Boxifying design means taking every element of a webpage design and dividing it into boxes. These boxes often have more boxes inside them. For example a pages' header will be denoted as a box, it might have an image element and a text element, so that two more boxes inside the header box. It is by identifying the boxes on a webpage, boxifying design breaks the page down into its elements.</p>
-       <li><strong>What is the box model?</strong></li>
-      <p>As said above, every element on a page is a box. The box model describes the construction of these element-boxes. So each box has margin, border and padding values that define its size and position relitive to the other elements on the page. Margin is the outermost layer, then the border, while padding is how much space between the content of the element and inside edge of the border.</p>
-  </ul>
-</div>
+       <main>
+         <div class ="row">
+          <div class="blogbuttons">
+           <div class="three columns">
+             <h2>Blog Nav</h2>
+             <button class="button-primary"><href="#">Reflection</a></button>
+             <button class="button-primary"><href="#">Time&Habits</a></button>
+             <button class="button-primary"><href="#">TechBlog 1</a></button>
+             <button class="button-primary"><href="#">TechBlog 2</a></button>
+             <button class="button-primary"><href="#">Mindfulness</a></button>
+             <button class="button-primary"><href="#">fill</a></button>
+             <button class="button-primary"><href="#">fill</a></button>
+             <button class="button-primary"><href="#">fill</a></button>
+            </div>
+           </div> <!--blogbuttons-->
+          <div class="blogtext">
+           <div class="nine columns">
+            <h2>BlogSubHead</h2>
 
+                <ul>
+                  <li><strong>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</strong></li>
+                  <p>The example in the Udacity video was of building a house. So if web development is house, HTML is the structural engineering and CSS is the interior/exterior decoration. I didn't get a great understanding of the DOM from the Udacity videos but it seems like the DOM is the thing that turns the plans laid by HTML and CSS into their end result, so perhaps the DOM is the site manager who takes the HTML/CSS documents, translates them, and produces the website. Sorry if that's not accurate, I'm still hazy on its strict definition. So HTML is the walls and supports of the house, CSS will tell you how big your TV is, how much insulation is in your walls and what colour those walls are, the DOM is the person who organises the installation of the whole project.</p>
+                   <li><strong>What is meant by boxifying design?</strong></li>
+                   <p>Boxifying design means taking every element of a webpage design and dividing it into boxes. These boxes often have more boxes inside them. For example a pages' header will be denoted as a box, it might have an image element and a text element, so that two more boxes inside the header box. It is by identifying the boxes on a webpage, boxifying design breaks the page down into its elements.</p>
+                   <li><strong>What is the box model?</strong></li>
+                  <p>As said above, every element on a page is a box. The box model describes the construction of these element-boxes. So each box has margin, border and padding values that define its size and position relitive to the other elements on the page. Margin is the outermost layer, then the border, while padding is how much space between the content of the element and inside edge of the border.</p>
+              </ul>
 
+           </div>
+          </div> <!--blogtext-->
+         </div> <!--row-->
+       </main>
+      </div> <!--scroller-->
+     <footer>
+       <div class="row">
+         all rights reserved mate.
+       </div>
+     </footer>
 
+    </div> <!--container-->
 
-
-
-</div>
-</div>
   </body>
-
-
-  <footer>All Rights Reserved. 2017</footer>
 </html>
