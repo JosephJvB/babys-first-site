@@ -75,14 +75,37 @@ main {
    border-color: black;
 }
 
-
-
-
-.buttonstack .button-primary {
-  padding: 40px 40%;
-  margin: 18px auto;
+main .three.columns {
+  overflow: scroll;
 }
 
+.buttonstack .button-primary {
+  width: 70%;
+  height: 5.0rem;
+}
+
+.blogbuttons .button-primary{
+  width: 70%;
+  height: 5.0rem;
+}
+
+main .blogtext {
+  margin: 2% 14%;
+  text-align: left;
+}
+
+main .buttonstack {
+  margin: 3% auto;
+
+}
+
+main .cupjoe {
+  height: 80%;
+  width: 65%;
+  border: solid black;
+  border-radius: 5%;
+  margin: 2% auto;
+}
 /* footer */
 
 footer {
