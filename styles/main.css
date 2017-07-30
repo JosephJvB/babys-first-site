@@ -82,11 +82,13 @@ main .three.columns {
 .buttonstack .button-primary {
   width: 70%;
   height: 5.0rem;
+  color: white;
 }
 
 .blogbuttons .button-primary{
   width: 70%;
   height: 5.0rem;
+  color: white;
 }
 
 main .blogtext {
