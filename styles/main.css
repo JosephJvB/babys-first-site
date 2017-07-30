@@ -2,12 +2,20 @@
     box-sizing: border-box;
 }
 
+/* big boyes */
+
+/* no body background till you get it right */
 body {
   background-image: url(http://blog.hostbaby.com/wp-content/uploads/2014/03/Trees_1920x1234.png);
 }
 
+
 .container {
   background-color: white;
+}
+
+.scroller {
+  overflow: scroll;
 }
 
 /* navigator */
@@ -17,12 +25,25 @@ body {
   border-color: black;
 }
 
+.navbar .row {
+  text-align: center;
+}
+
+/* this not work :(
+.navbar .row .three.columns .eda {
+  height: 10px;
+  width: 10px;
+}
+*/
+
 .navbar h1 {
   padding: 20px 30px;
+
 }
 
 .navbar h2 {
   padding: 20px 40px;
+
 }
 
 /* header */
@@ -54,9 +75,16 @@ main {
    border-color: black;
 }
 
+
+
+
 .buttonstack .button-primary {
-  padding: 40px 300px;
-  margin: 20px auto;
+  padding: 40px 40%;
+  margin: 18px auto;
 }
 
 /* footer */
+
+footer {
+
+}
