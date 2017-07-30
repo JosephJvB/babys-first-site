@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Joseph's Website</title>
+    <meta charset="UTF-8">
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="row">
+          <div class="three columns">
+            <img src="https://www.devacademy.co.nz/wp-content/uploads/2016/02/EDA-square-hires-180x180.png" class"eda">
+          </div>
+          <div class="four columns">
+            <h1>Joseph.vB</h1>
+          </div>
+          <div class="five columns">
+            <h2><a href="../index.html">Home</a> <a href="#">|</a> <a href="#">Contact</a></h2>
+          </div>
+        </div> <!--row-->
+      </div> <!--navbar-->
+
+      <div class="scroller">
+        <header>
+          <div class="row">
+            <div class="three columns">
+             <img src="../images/joeface.jpg" class="joeface">
+            </div>
+            <div class="nine columns">
+              <h1>Blog-X</h1>
+            </div>
+          </div> <!--row-->
+        </header>
+
+       <main>
+         <div class ="row">
+          <div class="blogbuttons">
+           <div class="three columns">
+             <h2>Blog Nav</h2>
+             <button class="button-primary"><a href="../Blog/c1-reflection-blog.html">Reflection</a></button>
+             <button class="button-primary"><a href="../Blog/c1-time-and-habits-blog.html">Time&Habits</a></button>
+             <button class="button-primary"><a href="../Blog/t2-html-css-dom-p1.html">TechBlog 1</a></button>
+             <button class="button-primary"><a href="../Blog/t2-html-css-dom-p2">TechBlog 2</a></button>
+             <button class="button-primary"><a href="../Blog/c2-emotional-intelligence.html">Mindfulness</a></button>
+             <button class="button-primary"><a href="#">TechBlog 3</a></button>
+             <button class="button-primary"><a href="#">fill</a></button>
+             <button class="button-primary"><a href="#">fill</a></button>
+            </div>
+           </div> <!--blogbuttons-->
+          <div class="blogtext">
+           <div class="nine columns">
+            <h2>BlogSubHead</h2>
+              <ul>
+                <li><strong>What is a responsive site? Why is responsiveness important?</strong></li>
+                 <p>
+                   A website is responsive if it is designed to be used on a range of screen sizes. What this means is when the browser detects a different screen size, the website will respond by rearranging its components so that it is still readable and accessable at the different screen size.
+                   Responsiveness is important to think about when building a website because there is no standardized screen size for browsers so as a designer you need to make sure that the site will look good whether a user is accessing your site from a phone, a tablet or a desktop PC. Also I know I like to say halve my web browser to work on a local program but still view website info. A nice reponsive site will make my life easy in that situation.
+                 </p>
+                <li><strong>What mobile first design is, and why it's important.</strong></li>
+                 <p>
+                   Mobile first design is the idea that when you build a website, you code your site to fit the screen resolution of a mobile screen (~400px). This is done by having your primary style rules (CSS) be suited to the mobile screen size, and then have extra rules apply when the screen gets larger. Mobile first design is good because it means when you view a mobile screen, the mobile has to 'parse' less code to load so it puts less strain on the mobile's processing - enabling a better user experience. Typically PC's and laptops will be more powerful than a handheld device and won't have trouble parsing the extra CSS code.
+                 </p>
+                <li><strong>What frameworks are, and their pros and cons.</strong></li>
+                  <p>
+                    Frameworks are pre-written sections of code that you can use to build your own website. They're good because it saves you the time of writing out lots of basic rules. Frameworks are good also as it means whatever code you write will be less cluttered. One con I can think of about frameworks is that if you include a framework that you didn't fully read (or understand) you may run into problems such as code behaving strangely and not knowing the root of the problem if that problem is tied up in a framework somewhere.
+                  </p>
+                <li><strong>What a wireframe is and why we use it.</strong></li>
+                  <p>
+                    A wireframe is a visual plan of a websites layout. We use wireframes to break the website down into its box-elements and arrange them. Once you decide the purpose of a website, you use the wireframe to decide how it will achieve that purpose. Do you want to user to read a body of text? Plan to have a easily readable section for a text element, etc.
+                  </p>
+
+            <div class="row">
+              <div class="four columns">
+                <img src="../images/MOBindex.jpg">
+              </div>
+              <div class="four columns">
+                <img src="../images/MOBblog.jpg">
+              </div>
+            </div>
+            <div class="row">
+              <div class="four columns">
+                <img src="../images/PCindex.jpg">
+              </div>
+              <div class="four columns">
+                <img src="../images/PCblog.jpg">
+              </div>
+            </div> <!--row-->
+
+                <li><strong>The aspects of your wireframes you found difficult to implement, and why.</strong></li>
+                  <p>
+                    The plans I made at the wireframe stage didn't end up being an exact prediction of how my site has finished up. I wanted to create my own media queries with the display:none rule/value set to have elements hidden at the moblie size that would then come in as the screen got bigger. But I found that the media queries in the skeleton framework actually had a pretty satisfactory effect - saving me the hassle of creating my own code. I did have a go at trying it but I couldnt get my head around it completely. It's definitely something I'm keen on figuring out though.
+                    Also I created some scroll overflows, as i had planned in the wireframes. But they dont work the way I'd hoped. I think it's a matter of setting a boundary size in the CSS but it doesn't obscure the content too badly so I'm happy to leave it and tinker with it later.
+                  </p>
+           </div>
+          </div> <!--blogtext-->
+         </div> <!--row-->
+       </main>
+      </div> <!--scroller-->
+     <footer>
+       <div class="row">
+         all rights reserved mate.
+       </div>
+     </footer>
+
+    </div> <!--container-->
+
+  </body>
+</html>
